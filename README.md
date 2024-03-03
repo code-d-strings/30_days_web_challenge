@@ -12,6 +12,10 @@ Each day, I'll be working on various web development tasks, including coding cha
 
 - **Day 1**: This HTML file, complemented by its associated CSS, lays the foundation for an eye-catching landing page for the inaugural day of a 30-day code challenge. It incorporates a captivating cover image, a sleek navigation bar, bold headings, and interactive buttons for downloading a CV and accessing a GitHub repository.
 
+- **Day 2**: This project focuses on building a user-friendly login form with intuitive input fields for username and password, along with links for forgotten passwords and sign-up options.
+
+- **Day 3**: Day Three of the challenge focused on combining the achievements of Days One and Two into a cohesive project. I revamped the navigation bar and main content section from Day One, integrating them with the streamlined sign-in form developed on Day Two. The goal was to create a seamless and engaging user experience while maintaining a balance between security and simplicity.
+
 Each day will have its own folder containing the project files, code snippets, and any additional documentation related to that day's tasks.
 
 ## How to Navigate
