@@ -1,0 +1,98 @@
+/* Reset CSS */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Body styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f3f3f3;
+    }
+    
+    /* Header styles */
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header nav ul {
+        list-style-type: none;
+    }
+    
+    header nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    /* Main styles */
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    
+    .profile {
+        max-width: 600px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+    
+    .profile-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .profile-info img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .profile-info h2 {
+        color: #333;
+    }
+    
+    .profile-info p {
+        color: #666;
+    }
+    
+    .profile-friends h3 {
+        color: #333;
+    }
+    
+    .profile-friends ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+    
+    .profile-friends li {
+        margin-bottom: 10px;
+        color: #666;
+    }
+    
+    /* Footer styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
