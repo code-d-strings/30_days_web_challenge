@@ -1,0 +1,142 @@
+/* Login page styles */
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+}
+
+/* Overlay */
+.overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        display: none;
+}
+
+/* Login Popup */
+.login-popup {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 300px;
+        z-index: 1001;
+        display: none;
+}
+
+/* Close Button */
+.close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+}
+
+header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+}
+
+main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+}
+
+.login-form {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 300px;
+}
+
+.login-form h2 {
+        margin-bottom: 20px;
+}
+
+.social-login {
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.social-login a {
+        display: inline-block;
+        text-decoration: none;
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+}
+
+.social-login a i {
+        margin-right: 5px;
+}
+
+.social-login a:hover {
+        background-color: #f2f2f2;
+}
+
+.or-divider {
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.or-divider span {
+        background-color: #fff;
+        padding: 0 10px;
+}
+
+.form-group {
+        margin-bottom: 15px;
+}
+
+.form-group label {
+        display: block;
+        margin-bottom: 5px;
+}
+
+.form-group input {
+        width: 97%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+}
+
+button {
+        width: 100%;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+}
+
+button:hover {
+        background-color: #555;
+}
+
+footer {
+        background-color: #222;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: scroll;
+        bottom: 0;
+        width: 100%;
+}
