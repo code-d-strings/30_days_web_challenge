@@ -1,0 +1,134 @@
+.first_side_bar {
+        background: #222;
+        padding: 12px;
+        width: 100%;
+        height: 60vh;
+        border-radius: 10px;
+        margin-bottom: 20px;
+}
+.search_section{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.top_level {
+        position: relative;
+        width: 100%;
+}
+
+.top_level .svg {
+        width: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+.top_level h4 {
+        color: #fff;
+}
+
+/* Style for input container */
+.input-container {
+        width: 70%;
+        margin-top: 5px;
+        position: relative;
+
+}
+
+/* Style for the icon */
+.icon {
+        width: 20px;
+        position: absolute;
+        top: 45%;
+        left: 10px;
+        transform: translateY(-50%);
+}
+
+/* Style for the input field */
+.input-field {
+        padding-left: 30px; /* Adjust based on the icon size */
+        width: 100%;
+        background: #1a1818;
+        box-shadow: 0 2px 4px rgba(32, 25, 25, 0.1);
+        border-radius: 5px;
+        padding: 7px;
+}
+
+.input-field::placeholder{
+        color: #f6f6f6;
+}
+
+.plus_icon{
+        display: flex;
+        justify-content: center;
+        border-radius: 25px;
+        background: #1a1818;
+        width: 45px;
+        height: 45px;
+}
+
+.plus_icon svg{
+        width: 20px;
+}
+
+.chat_division{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: .1px solid;
+        border-color: grey;
+}
+
+.chat_division ul{
+        padding: 5px;
+}
+
+.chat_division ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px;
+}
+
+.primary{
+        color: #fff;
+        font-size: 20px;
+}
+
+.private {
+        color: grey;
+        font-size: 20px;
+}
+
+.inbox{
+        color: gold;
+        font-size: 20px;
+}
+
+hr{
+        margin-top: -2px;
+}
+
+.messages{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+}
+
+.messages .dp{
+        display: flex;
+        align-items: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+}
+
+.messages .dp img{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-right: 12px;
+}
+
+.time{
+        text-align: center;
+        padding: 5px;
+}
