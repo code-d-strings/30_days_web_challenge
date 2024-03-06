@@ -1,0 +1,176 @@
+* {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+}
+
+.header {
+        background: #222;
+        padding: 25px;
+}
+
+nav {
+        padding: 10px 10px 10px;
+        display: flex;
+        justify-content: space-between;
+}
+
+nav h1 {
+        display: flex;
+        align-items: center;
+        color: #fff;
+}
+
+nav ul {
+        float: right;
+        display: flex;
+}
+
+nav ul li {
+        display: block;
+        padding: 1px;
+}
+
+nav ul li a {
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+        padding: 20px;
+}
+
+nav ul li a:hover {
+        background: black;
+        color: gold;
+        border-radius: 5px;
+}
+
+nav ul li svg {
+        width: 25px;
+        color: #fff;
+        padding: 10px;
+        display: none;
+}
+.main_body{
+        display: flex;
+}
+
+.profile_section {
+        width: 20%;
+        background: #222;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+}
+
+.main_section {
+        width: 80%;
+        height: auto;
+        display: flex;
+        background: black;
+        overflow: hidden;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+}
+.post{
+        width: 50%;
+        height: 100%;
+}
+
+.sidebar {
+        width: 50%;
+        height: 100%;
+        margin-left: 30px;
+}
+
+.p_image{
+        padding: 30px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+        align-items: center;
+}
+
+.profile_section .profile_pic{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        justify-content: center;
+}
+
+.p_image h2{
+        text-align: center;
+        margin-top: 10px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 1em;
+
+}
+
+.follow{
+        display: flex;
+        flex-direction: row;
+}
+
+.follow .followers{
+        padding: 10px;
+}
+
+.follow .followers h3{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+        color: grey;
+}
+
+.follow .following{
+        padding: 10px;
+}
+
+.follow .following h3{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+        color: grey;
+}
+
+.mini_nav{
+        width: 100%;
+        margin-top: 30px;
+}
+.mini_nav ul{
+        display: block;
+        margin-top: 5px;
+        z-index: -1;
+}
+
+.mini_nav ul li{
+        padding: 5px;
+        list-style-type: none;
+}
+
+.mini_nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        display: block;
+}
+
+.mini_nav ul li:hover{
+        background: black;
+        color: gold;
+}
+
+.mini_nav ul .active{
+        background: black;
+}
+
+.mini_nav ul .active a{
+        color: gold;
+}
+
+.mini_nav ul li a:hover{
+        color: gold;
+}
+
